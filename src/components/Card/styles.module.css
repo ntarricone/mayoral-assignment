@@ -1,0 +1,49 @@
+.card {
+  box-shadow: lightgrey 1px 1px 4px 0px;
+  padding: 20px 10px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 40px;
+}
+
+.discountedPrice {
+  color: red;
+}
+
+.moreColors {
+  color: grey;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.lineThrough {
+  text-decoration: line-through;
+}
+
+.colorsDiv {
+  display: table-footer-group;
+  top: 0;
+  left: 0;
+  background-color: #0172eaa6;
+  color: white;
+  width: 100%;
+  gap: 1rem;
+  animation: fadeIn 0.6s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

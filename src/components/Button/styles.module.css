@@ -1,0 +1,18 @@
+.primary {
+  align-items: center;
+  background-color: #0172ea;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 5px;
+}
+
+.secondary {
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  font-size: x-large;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}

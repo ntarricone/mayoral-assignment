@@ -1,0 +1,41 @@
+body {
+  padding: 10px 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.around {
+  justify-content: space-around;
+}
+
+.center {
+  justify-content: center;
+}
+
+.py-1 {
+  padding: 10px 0px;
+}
+
+.pointer {
+  cursor: pointer;
+}

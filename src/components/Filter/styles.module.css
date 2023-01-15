@@ -1,0 +1,25 @@
+.inputDiv {
+  position: relative;
+  width: 500px;
+}
+.input {
+  text-indent: 25px;
+  border-radius: 5px;
+  border: 2px solid lightgray;
+  height: 20px;
+  width: 100%;
+}
+
+.search {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .inputDiv {
+    width: 85vw;
+    margin-top: 30px;
+  }
+}
